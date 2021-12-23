@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mailchimp</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+      <link
+      href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    />
+  </head>
+  <body>
+    <div class="content">
+      <div class="content__image">
+        <img class="content__image--image" src="./images/logo.png" alt="logo" />
+      </div>
+
+      <div class="content__form">
+        <h1 class="content__form--title">Welcomo to Mailchimp</h1>
+        <p class="content__form--cab content__form--text">
+          Find you people. Engage your customers. Build your brand. Do it all
+          with Mailchimp's Marketing Platform. Already have an account?
+          <a class="content__form--link1" href="">Log in</a>
+        </p>
+
+        <form
+          class="content__form--form"
+          action="https://reqres.in/api/users?page=2"
+          method="get"
+          autocomplete="off"
+        >
+          <label class="content__form--label" for="email">Email</label>
+          <input
+            class="content__form--input"
+            type="email"
+            id="email"
+            name="user_email"
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}"
+          />
+
+          <label class="content__form--label" for="username">Username</label>
+          <input
+            class="content__form--input"
+            type="text"
+            id="username"
+            name="user_username"
+            required
+          />
+          <div class="content__psw">
+            <label class="content__form--label" for="psw"
+              ><span>Password</span></label
+            >
+            <div class="content__form--show">
+              <img
+                class="content__form--alignCent"
+                src="./images/favicon.ico"
+                alt="favicon"
+              />
+              Show
+            </div>
+          </div>
+          <input
+            class="content__form--input"
+            type="password"
+            id="psw"
+            name="user_password"
+            required
+            minlength="8"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]$"
+          />
+          <div class="content__display content__display--listColor">
+            <ul class="content__list--list1">
+              <li>
+                <span class="content__form--smallFont"
+                  >One lowercase character</span
+                >
+              </li>
+              <li>
+                <span class="content__form--smallFont"
+                  >One uppercase character</span
+                >
+              </li>
+              <li><span class="content__form--smallFont">One number</span></li>
+            </ul>
+
+            <ul class="content__list--list2">
+              <li>
+                <span class="content__form--smallFont"
+                  >One special character</span
+                >
+              </li>
+              <li>
+                <span class="content__form--smallFont"
+                  >8 Characters minimum</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="content__display content__form--smallFont">
+            <button class="content__display--button" type="submit">
+              Sign Up
+            </button>
+            <input
+              class="content__display--checkBox"
+              type="checkbox"
+              id="publi"
+              name="user_publi"
+            />
+            <label class="content__form--smallFont" for="publi"
+              >i don't want to receive emails about new Mailchimp products, best
+              practices, or special offers.
+            </label>
+          </div>
+        </form>
+
+        <p class="content__form--text content__form--terms">
+          By clicking the "Sign Up" button, you are creating a Mailchimp
+          account, and you agree to Mailchimps
+          <a class="content__form--link2" href="">terms of use</a> and
+          <a class="content__form--link2" href="">privacy policy</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

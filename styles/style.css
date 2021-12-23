@@ -1,0 +1,167 @@
+body {
+  font-family: Georgia, "Times New Roman", "Roboto", "Libre Baskerville", Times,
+    serif;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  max-width: 70%;
+}
+
+.content__image {
+  width: 25%;
+  padding-top: 3rem;
+  padding-left: 1rem;
+
+  /*display: flex;
+    flex-direction: row;*/
+
+  /*align-items: center;*/
+  /*justify-content: center;*/
+}
+
+.content__image--image {
+  width: 65%;
+  height: auto;
+  /*width: 50%;
+    height: 50%;*/
+}
+
+.content__form {
+  max-width: 46%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto", sans-serif;
+}
+
+.content__form--title {
+  font-family: "Libre Baskerville", serif;
+  /*font-family: 'Roboto', sans-serif ;*/
+  font-weight: 520;
+  margin-bottom: 1px;
+}
+
+.content__form--cab {
+  max-width: 100%;
+  margin-top: 1rem;
+  
+}
+
+.content__form--text {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/*.content__form--text::first-letter, span::first-letter, label::first-letter {
+  text-transform: capitalize;
+
+}*/
+
+.content__form--link1 {
+  text-decoration: none;
+  color: rgb(72, 162, 187);
+}
+
+.content__form--form {
+  display: flex;
+  flex-direction: column;
+}
+
+.content__form--label {
+  font-family: 'Readex Pro', sans-serif;
+  font-weight: bold;
+    
+}
+
+
+.content__form--input {
+  height: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 0.7rem;
+  border-color: rgb(206, 205, 205);
+  
+}
+
+.content__psw {
+  display: flex;
+  
+}
+
+.content__form--show {
+    font-weight: bold;
+    color: rgb(43, 177, 198);
+    margin-left: auto;
+    display: flex;
+    cursor: pointer;
+    
+  }
+  
+.content__form--alignCent {
+  align-items: center;
+  
+}
+
+.content__display {
+    display: flex;
+     
+}
+
+.content__display--listColor {
+  color: rgb(60, 100, 193);
+  font-size: 17pt;
+  
+   
+}
+
+.content__list--list1 {
+    
+  padding-left: 1.3rem;
+  margin-top: 10px;
+       
+}
+
+
+.content__list--list2 {
+    
+  padding-left: 4rem;
+  margin-top: 10px;
+
+}
+.content__display--button {
+  width: 45%;
+  height: 70%;
+  margin-right: 1.5rem;
+}
+
+.content__display--checkBox {
+  transform: scale(1.9);
+  -ms-transform: scale(1.9);
+  -webkit-transform: scale(1.9);
+  padding: 10px;
+  margin-top: 0.3rem;
+  margin-right: 0.7rem;
+  border-color: brown;
+
+}
+
+.content__form--capitalize {
+  text-transform: capitalize;
+}
+
+.content__form--link2{
+  text-transform: capitalize;
+  color: rgb(72, 162, 187);
+  text-decoration: underline;
+}
+
+.content__form--smallFont {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 600;
+
+}
+.content__form--terms {
+  font-size: 0.85rem;
+}
